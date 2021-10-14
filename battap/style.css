@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: Graphik;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    height: 930px;
+    background: url(../image/Rectangle9.png) no-repeat;
+    background-size: 100% 930px;
+}
+
+.container .header .header1 {
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    float: left;
+}
+
+.container .header .header1 ul {
+    display: flex;
+}
+
+.container .header .click a {
+    float: left;
+    text-decoration: none;
+    padding: 30px;
+    color: #FFFFFF;
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 28px;
+}
+
+.container .header .header1 .image img {
+    width: 186px;
+    height: 58px;
+}
+
+.container .header .icon1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .header .icon1 .icon {
+    padding: 20px;
+}
+
+.container .content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.container .content .content3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 672px;
+    height: 168px;
+    margin-top: 150px;
+}
+
+.container .content .content3 .type {
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 74px;
+    line-height: 84px;
+    width: 672px;
+    height: 168px;
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+
+.container .content .content3 .text1 {
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 40px;
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 0.2px;
+    width: 636px;
+    height: 80px;
+    margin-top: 40px;
+}
+
+.container .content .content3 .check {
+    background: #2091F9;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 0px;
+    width: 236px;
+    height: 52px;
+    margin-top: 55px;
+}
+
+.container .content .content3 .check .style {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border: 0;
+    background: #2091F9;
+}
+
+/* footer */
+
+.footer {
+    width: 100%;
+    height: 567px;
+    left: 0px;
+    top: 8157.3px;
+    background: #252B42;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .menu {
+    width: 50%
+}
+
+.footer .menu .style {
+    width: 15%;
+    /* background-color:red; */
+    float: left;
+    margin: 0px 40px;
+}
+
+.footer .menu .style .title {
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.footer .menu .style .list {
+    font-family: Graphik;
+    text-align: center;
+}
+
+.footer .menu .style .list a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    margin: 0px 10px;
+}
+
+.footer .about .style1 {
+    position: static;
+    left: 707px;
+    top: 0px;
+}
+
+.footer .about .style1 .icon1 {
+    margin: 10px;
+    color: #FFFFFF;
+}
+
+.footer .about .style1 .icon1 img {
+    padding-right: 20px;
+}
