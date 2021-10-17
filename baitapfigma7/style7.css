@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: Graphik;
+    font-style: normal;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    height: 725px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .content .list {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    color: #252B42;
+    margin: 17px 70px;
+}
+
+.container .content .list1 {
+    color: #252B42;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 55px;
+    margin: 27px 60px;
+}
+
+.container .content .most {
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 40px;
+    color: #374754;
+}
+
+@media only screen and (max-width:1400px) {
+    .container .content1 img {
+        width: 677px;
+        height: 514px;
+    }
+    .container .content2 .figma {
+        margin-bottom: 35px;
+    }
+    .container .content2 .figma .type {
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 28px;
+        color: #252B42;
+        padding-bottom: 17px;
+    }
+    .container .content2 .figma h2 {
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 55px;
+        color: #252B42;
+        padding-bottom: 35px;
+    }
+    .container .content2 .figma .text {
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 28px;
+        color: #252B42;
+        padding-bottom: 17px;
+    }
+    .container .content2 .figma p {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+        color: #374754;
+    }
+    .container .content2 .click input {
+        background: #F4F4F4;
+        border: 1px solid #E8E8E8;
+        box-sizing: border-box;
+        border-radius: 39px;
+        width: 273px;
+        height: 54px;
+        padding-left: 39px;
+        margin-right: 12px;
+    }
+    .container .content2 .click button {
+        background: #2091F9;
+        border-radius: 35px;
+        width: 172px;
+        height: 56px;
+        border: 0;
+    }
+    .container .content .list {
+        display: none;
+    }
+    .container .content .list1 {
+        display: none;
+    }
+    .container .content .most {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .container {
+        flex-direction: column;
+    }
+    .container .content .list {
+        display: flex;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 28px;
+        color: #252B42;
+    }
+    .container .content .list1 {
+        display: flex;
+        color: #252B42;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 55px;
+    }
+    .container .content .most {
+        display: flex;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 40px;
+        color: #374754;
+    }
+    .container .content1 img {
+        width: 389px;
+        height: 295px;
+    }
+    .container .content2 .figma .text {
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 28px;
+        color: #252B42;
+        padding-bottom: 17px;
+    }
+    .container .content2 .figma p {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+        color: #374754;
+    }
+    .container .content2 .click input {
+        background: #F4F4F4;
+        border: 1px solid #E8E8E8;
+        box-sizing: border-box;
+        border-radius: 39px;
+        width: 353px;
+        height: 54px;
+        padding-left: 39px;
+        margin-right: 12px;
+    }
+    .container .content2 .click button {
+        background: #2091F9;
+        border-radius: 35px;
+        width: 353px;
+        height: 54px;
+        border: 0;
+        margin-top: 20px;
+    }
+    .container .content2 .figma .type {
+        display: none;
+    }
+    .container .content2 .figma h2 {
+        display: none;
+    }
+}
