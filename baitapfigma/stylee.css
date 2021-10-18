@@ -14,7 +14,6 @@ body {
 
 .container {
     width: 100%;
-    /* overflow: hidden; */
     height: 930px;
     background: url(../image/Rectangle9.png) no-repeat;
     background-size: 100% 930px;
@@ -150,7 +149,6 @@ body {
     margin: 0 auto;
     font-weight: normal;
     width: 532px;
-    h80px
 }
 
 .figma .content2 ul {
@@ -177,8 +175,6 @@ body {
 }
 
 .figma .content2 .list .text-content {
-    /* width: 231px;
-    height: 100px; */
     margin: 0 auto;
     font-size: 18px;
     letter-spacing: 0, 2px;
@@ -189,8 +185,6 @@ body {
 
 .figma .footer img {
     text-align: center;
-    /* width: 1177px;
-    height: 658px; */
     margin: 0 auto;
     width: 100%;
 }
@@ -376,7 +370,6 @@ body {
 .container4 .image4 ul .google .color .reds {
     font-size: 48px;
     color: #FF302F;
-    ;
 }
 
 .container4 .image4 ul .google .color .oranges {
@@ -396,7 +389,7 @@ body {
     background: #FFFFFF;
     border: 1px solid #D8D8D8;
     box-sizing: border-box;
-    float: left
+    float: left;
 }
 
 .container4 .image4 ul .amazon img {
@@ -438,8 +431,6 @@ body {
     width: 236px;
     height: 60px;
     border-radius: 35px;
-    /* padding-left: 20px;
-   padding-top: 20px; */
     text-align: center;
     margin: auto;
     padding-top: 25px;
@@ -653,7 +644,6 @@ body {
 
 .figma7 .order .order2 {
     background-color: #2091F9;
-    ;
 }
 
 .figma7 .order .order2 .centers {
@@ -844,14 +834,16 @@ body {
     color: #FFFFFF;
     margin-right: 130px;
 }
-.footer-figma .mail-footer ul .mail1-footer{
-padding-bottom: 20px;
+
+.footer-figma .mail-footer ul .mail1-footer {
+    padding-bottom: 20px;
 }
-.footer-figma .mail-footer ul .mail1-footer img{
+
+.footer-figma .mail-footer ul .mail1-footer img {
     padding-right: 30px;
-    
 }
-.footer-figma .mail-footer ul .mail1-footer a{
+
+.footer-figma .mail-footer ul .mail1-footer a {
     color: #FFFFFF;
     text-decoration: none;
 }
